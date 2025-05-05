@@ -1,0 +1,116 @@
+body{
+    font-family: "Judson", serif !important;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.navbar{
+    height: 5rem;
+    background-color:white;
+}
+
+.container{
+    flex: 1 !important;
+}
+
+.fa-compass{
+    font-size: 2rem;
+    color: #fe424d;
+}
+
+.nav-link{
+    color: #222222 !important ;
+}
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-socials , .f-info-links , .f-info-brand{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-info-socials i {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.f-info{
+    text-align: center;
+    background-color: #ebebeb;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: space-evenly;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+
+}
+
+.card-text p {
+    font-weight: 400;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+.btn-add , .btn-edit , .btn-delete {
+    background-color: #fe424d !important;
+    color: white !important;
+    border: none !important;
+}
+
+.review-btn{
+    background-color: #fe424d !important;
+    color: white !important;
+    border: none !important;
+}
+
+.btn-edit a{
+    text-decoration: none;
+    color: white;
+}
+
+.show-img{
+    height: 30vh;
+    object-fit:cover;
+}
+
+.btns{
+    display: flex;
+    gap: 1rem;
+}
+
+#map { 
+    height: 40vh;
+    width: 600px;
+}
