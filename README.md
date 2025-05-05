@@ -1,4 +1,4 @@
-# StayFinder - Hotel & Restaurant Listing Platform
+# WanderLust - Hotel & Restaurant Listing Platform
 
 ## 🏨 Overview
 
